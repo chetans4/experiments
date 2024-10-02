@@ -22,10 +22,10 @@ public class VerticalStars {
             for (int j = 0; j < arr.length; j++) { // columns will be same as items in provided array
                 // Check if we need to print a star or a space
 //                System.out.println("arr[j] "+arr[j]+" maxHeight - i : "+(maxHeight - i));
-                if (arr[j] >= maxHeight - i) {
-                    System.out.print("*");
-                } else {
+                if (arr[j] < maxHeight - i) {
                     System.out.print(" "); // Two spaces for alignment
+                } else {
+                    System.out.print("*");
                 }
             }
             System.out.println(""); // Trim to remove extra space at the end
