@@ -1,1 +1,3 @@
-Bare Java Programming excersises, experiments and practice
+- Bare Java Programming excersises, experiments and practice
+- LRUCache
+- Codility
