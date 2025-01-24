@@ -13,6 +13,8 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation 'org.json:json:20090211'
+    implementation 'org.apache.kafka:kafka-clients:3.9.0'
+//    implementation 'ch.qos.logback:logback-classic:1.5.16' //To Print logs from kafka broker
 
 }
 
