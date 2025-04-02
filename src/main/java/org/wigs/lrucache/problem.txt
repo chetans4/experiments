@@ -1,0 +1,12 @@
+1. Design a stack which, in addition to push and pop, has a function min () which returns the minimum element of the stack at a given point of time. The push (), pop () and min () functions should all operate in O(1) time.
+
+
+2. LRU Cache:
+Design a data structure for LRU (Least Recently Used) Cache holding (key, value) pairs with a pre-defined capacity. It should support the following operations: get () and set ().
+
+get(key) – Gets the value of the key if the key exists in the cache, otherwise returns null.
+
+set(key, value) – Sets the value for a key, or inserts a value (if the key is not already present). When the cache has reached its capacity, it should invalidate the least recently used item before adding the new item.
+
+The cache should have a pre-defined limited size; if the size is full, it should remove the least recently used (LRU) entry from the cache to accommodate a new entry.
+
